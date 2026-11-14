@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chinese Learning Lab</title><link rel="stylesheet" href="assets/css/home.css"></head><body>
+<a class="sr-only" href="#main">Skip to course choices</a>
+<main class="home-shell" id="main"><div class="art-wrap" aria-label="Chinese Learning Lab homepage with five course cards">
+<img src="assets/img/homepage-approved.png" alt="Chinese Learning Lab homepage artwork with Chinese 1, Chinese 2/2H, Chinese 3H, Chinese 4H, and AP Chinese course cards">
+<button class="hotspot menu-hotspot" id="menuBtn" aria-label="Open navigation menu">Menu</button>
+<a class="hotspot library-hotspot" href="library/index.html" aria-label="Open Learning Resources Library">Learning Resources Library</a>
+<a class="hotspot enter1" href="chinese1/index.html" aria-label="Enter Chinese 1">Enter Chinese 1</a>
+<a class="hotspot enter2" href="courses/chinese2.html" aria-label="Open Chinese 2 / 2H">Enter Chinese 2 / 2H</a>
+<a class="hotspot enter3" href="courses/chinese3h.html" aria-label="Open Chinese 3H">Enter Chinese 3H</a>
+<a class="hotspot enter4" href="courses/chinese4h.html" aria-label="Open Chinese 4H">Enter Chinese 4H</a>
+<a class="hotspot enter5" href="courses/ap.html" aria-label="Open AP Chinese">Enter AP Chinese</a>
+<aside class="drawer" id="drawer" aria-hidden="true"><button class="close-drawer" id="closeDrawer" aria-label="Close menu">×</button><h2>Chinese Learning Lab</h2><nav>
+<a href="index.html">Home</a><a href="chinese1/index.html">Chinese 1</a><a href="courses/chinese2.html">Chinese 2 / 2H</a><a href="courses/chinese3h.html">Chinese 3H</a><a href="courses/chinese4h.html">Chinese 4H</a><a href="courses/ap.html">AP Chinese</a><a href="library/index.html">Learning Resources Library</a>
+</nav></aside>
+</div></main>
+<script>const d=document.getElementById('drawer'),m=document.getElementById('menuBtn'),c=document.getElementById('closeDrawer');function openMenu(){d.classList.add('open');d.setAttribute('aria-hidden','false');c.focus()}function closeMenu(){d.classList.remove('open');d.setAttribute('aria-hidden','true');m.focus()}m.addEventListener('click',openMenu);c.addEventListener('click',closeMenu);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&d.classList.contains('open'))closeMenu()});</script>
+</body></html>
